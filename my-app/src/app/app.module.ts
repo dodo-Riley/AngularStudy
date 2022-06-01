@@ -15,7 +15,7 @@ import {TodosModule} from "./todos/todos.module";
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
     TodosModule
   ],
   providers: [],
