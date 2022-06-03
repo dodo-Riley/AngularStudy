@@ -7,8 +7,13 @@ import { Component } from '@angular/core';
 })
 export class HelloComponent {
   name!: string;
+  arr!: Array<any>;
 
   setName(name: string) {
     this.name = name;
+  }
+
+  setArray(array:Array<any>) {
+    this.arr = array;
   }
 }
